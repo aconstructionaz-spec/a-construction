@@ -5,8 +5,15 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 export default function Contact() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    // Logic for form submission would go here
-    alert('Mesajınız göndərildi. Təşəkkür edirik!');
+    const formData = new FormData(e.currentTarget as HTMLFormElement);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+    
+    const mailtoUrl = `mailto:a.construction.az@gmail.com?subject=Yeni müraciət: ${name}&body=Ad: ${name}%0D%0AE-poçt: ${email}%0D%0A%0D%0AMesaj:%0D%0A${message}`;
+    
+    window.location.href = mailtoUrl;
+    alert('Mesajınız üçün e-poçt tətbiqi açılır. Təşəkkür edirik!');
   };
 
   return (
@@ -79,6 +86,7 @@ export default function Contact() {
                 <label htmlFor="name" className="text-sm font-semibold text-gray-700">Adınız</label>
                 <input
                   id="name"
+                  name="name"
                   type="text"
                   required
                   placeholder="Məs: Əli Əliyev"
@@ -89,6 +97,7 @@ export default function Contact() {
                 <label htmlFor="email" className="text-sm font-semibold text-gray-700">E-poçtunuz</label>
                 <input
                   id="email"
+                  name="email"
                   type="email"
                   required
                   placeholder="Məs: ali@example.com"
@@ -100,6 +109,7 @@ export default function Contact() {
               <label htmlFor="message" className="text-sm font-semibold text-gray-700">Mesajınız</label>
               <textarea
                 id="message"
+                name="message"
                 required
                 rows={5}
                 placeholder="Layihəniz haqqında qısa məlumat..."

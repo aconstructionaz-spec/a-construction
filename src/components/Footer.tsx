@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Mail, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { MessageCircle, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,17 +19,6 @@ export default function Footer() {
             <p className="text-gray-400 leading-relaxed text-sm">
               2015-ci ildən bəri Azərbaycanın tikinti, sənaye və logistika sahələrində ən yüksək standartlara cavab verən həllər təqdim edirik.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors">
-                <Linkedin size={20} />
-              </a>
-            </div>
           </div>
 
           <div>
