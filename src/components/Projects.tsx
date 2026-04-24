@@ -3,22 +3,32 @@ import { motion } from 'motion/react';
 const partners = [
   { 
     name: 'Pasha Construction', 
-    description: 'Azərbaycanın ən böyük tikinti layihələri',
+    description: 'Paşa İnşaat MMC-nin sifarişi əsasında Gənclik Mall və 28 Mall ərazilərində asfalt örtüyünün çəkilməsi',
     logo: 'https://lh3.googleusercontent.com/d/1FV5-xPwoD8EWvZfuYSahQf8Hk24KLMFG'
   },
   { 
     name: 'Baku Expo Center', 
-    description: 'Beynəlxalq sərgi mərkəzi layihəsi',
+    description: 'Bakı Ekspo Sərgi Mərkəzinin ərazisində asfaltlama işlərinin aparılması',
     logo: 'https://lh3.googleusercontent.com/d/1TPqGdypHtDsJJho2ynka85Q_ZJAyBXZh'
   },
   { 
     name: 'SOCAR', 
-    description: 'Neft və qaz sektoru əməliyyatları',
+    description: 'SOCAR, “Bahar Enerji” müəssisələrində sənaye təyinatlı çənlərin təmizlənməsi və yuyulması',
     logo: 'https://lh3.googleusercontent.com/d/1kbqbycqnHcj9qPsJwFtV9I2Dn4LCwnYv'
   },
   { 
     name: 'Azersun Holding', 
-    description: 'Sənaye və kənd təsərrüfatı təchizatı',
+    description: 'Azərsun Holdinq müəssisələrində sənaye təyinatlı çənlərin təmizlənməsi və yuyulması',
+    logo: 'https://lh3.googleusercontent.com/d/1idargYhM_Ldtor5G81QsceP-TAMFTYW1'
+  },
+  { 
+    name: 'Ekol', 
+    description: 'Ekol şirkəti üçün çirklənmiş torpaq sahələrinin daşınması',
+    logo: 'https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&q=80&w=200'
+  },
+  { 
+    name: 'Azərsun Holdinq (Təchizat)', 
+    description: '“Azərsun Holdinq” layihələrinə tikinti materiallarının (qum, çınqıl, beton) fasiləsiz təchizatı',
     logo: 'https://lh3.googleusercontent.com/d/1idargYhM_Ldtor5G81QsceP-TAMFTYW1'
   },
 ];
@@ -27,7 +37,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section-padding bg-white">
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 tracking-tight">Tərəfdaşlarımız və Layihələrimiz</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 tracking-tight">Layihələrimiz</h2>
         <div className="w-20 h-1.5 bg-brand-blue mx-auto rounded-full" />
       </div>
 
