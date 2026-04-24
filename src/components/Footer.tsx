@@ -1,0 +1,91 @@
+import { MessageCircle, Phone, Mail, Instagram, Facebook, Linkedin } from 'lucide-react';
+
+export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-gray-950 text-white pt-20 pb-10">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+          <div className="space-y-6">
+            <a href="#" className="flex items-center transition-transform hover:scale-105 active:scale-95 duration-300">
+              <img 
+                src="https://lh3.googleusercontent.com/d/1i_B0qfP6BBUevY9by6BlfAC0t9VY7py1" 
+                alt="A Construction Logo" 
+                className="h-10 w-auto object-contain brightness-0 invert"
+                referrerPolicy="no-referrer"
+              />
+            </a>
+            <p className="text-gray-400 leading-relaxed text-sm">
+              2015-ci ildən bəri Azərbaycanın tikinti, sənaye və logistika sahələrində ən yüksək standartlara cavab verən həllər təqdim edirik.
+            </p>
+            <div className="flex space-x-4">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors">
+                <Facebook size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors">
+                <Linkedin size={20} />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-bold mb-6">Sürətli Keçid</h4>
+            <ul className="space-y-4 text-gray-400">
+              <li><a href="#about" className="hover:text-brand-blue transition-colors">Haqqımızda</a></li>
+              <li><a href="#services" className="hover:text-brand-blue transition-colors">Xidmətlər</a></li>
+              <li><a href="#projects" className="hover:text-brand-blue transition-colors">Layihələr</a></li>
+              <li><a href="#contact" className="hover:text-brand-blue transition-colors">Əlaqə</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-bold mb-6">Xidmətlərimiz</h4>
+            <ul className="space-y-4 text-gray-400">
+              <li>Tikinti və Təmir</li>
+              <li>Xüsusi Yükdaşımalar</li>
+              <li>Material Təchizatı</li>
+              <li>Ağır Texnika</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-bold mb-6">Əlaqə Vasitələri</h4>
+            <ul className="space-y-4">
+              <li className="flex items-center space-x-3 text-gray-400">
+                <Phone size={18} className="text-brand-blue" />
+                <span>+994 50 255 19 63</span>
+              </li>
+              <li className="flex items-center space-x-3 text-gray-400">
+                <Mail size={18} className="text-brand-blue" />
+                <span>info@a-construction.az</span>
+              </li>
+              <li className="pt-4">
+                <a
+                  href="https://wa.me/994502551963"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold transition-all shadow-lg shadow-green-600/30 w-fit"
+                >
+                  <MessageCircle size={20} />
+                  <span>WhatsApp-la Yaz</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+          <p>© {currentYear} A Construction MMC. Bütün hüquqlar qorunur.</p>
+          <div className="mt-4 md:mt-0 space-x-6">
+            <a href="#" className="hover:text-white transition-colors">Məxfilik Siyasəti</a>
+            <a href="#" className="hover:text-white transition-colors">İstifadə Şərtləri</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
