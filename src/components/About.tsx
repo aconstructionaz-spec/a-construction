@@ -27,16 +27,6 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 mt-12 max-w-sm mx-auto md:mx-0">
-            <div className="border-l-4 border-brand-blue pl-4 py-2">
-              <div className="text-3xl font-bold text-gray-900">2015</div>
-              <div className="text-sm text-gray-500 uppercase tracking-wider font-semibold">Təsis İli</div>
-            </div>
-            <div className="border-l-4 border-brand-blue pl-4 py-2">
-              <div className="text-3xl font-bold text-gray-900">500+</div>
-              <div className="text-sm text-gray-500 uppercase tracking-wider font-semibold">Uğurlu Layihə</div>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>
