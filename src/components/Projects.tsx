@@ -41,17 +41,21 @@ export default function Projects() {
         <div className="w-20 h-1.5 bg-brand-blue mx-auto rounded-full" />
       </div>
 
-      <div className="relative overflow-hidden py-10">
+      <div className="relative overflow-hidden py-10 cursor-grab active:cursor-grabbing">
         <motion.div 
-          className="flex gap-8 whitespace-nowrap"
+          className="flex gap-8 whitespace-nowrap px-4"
+          drag="x"
+          dragConstraints={{ left: -2400, right: 0 }}
           animate={{
             x: ["-50%", "0%"]
           }}
           transition={{
-            duration: 30,
+            duration: 50,
             repeat: Infinity,
-            ease: "linear"
+            ease: "linear",
+            repeatType: "loop"
           }}
+          whileHover={{ animationPlayState: 'paused' }}
         >
           {[...partners, ...partners].map((partner, index) => (
             <div

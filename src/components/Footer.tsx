@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -51,17 +51,6 @@ export default function Footer() {
               <li className="flex items-center space-x-3 text-gray-400">
                 <Mail size={18} className="text-brand-blue" />
                 <span>info@a-construction.az</span>
-              </li>
-              <li className="pt-4">
-                <a
-                  href="https://wa.me/994502551963"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold transition-all shadow-lg shadow-green-600/30 w-fit"
-                >
-                  <MessageCircle size={20} />
-                  <span>WhatsApp-la Yaz</span>
-                </a>
               </li>
             </ul>
           </div>
