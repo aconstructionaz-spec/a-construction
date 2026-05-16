@@ -57,7 +57,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="tel:+994502551963"
+            href="tel:+994102416565"
             className={`flex items-center space-x-2 px-4 py-2 rounded-full border transition-all ${
               isScrolled 
               ? 'border-brand-blue text-brand-blue hover:bg-brand-blue hover:text-white' 
@@ -65,7 +65,7 @@ export default function Header() {
             }`}
           >
             <Phone size={16} />
-            <span className="font-semibold">+994 50 255 19 63</span>
+            <span className="font-semibold">+994 10 241 65 65</span>
           </a>
         </nav>
 
@@ -100,11 +100,11 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="tel:+994502551963"
+                href="tel:+994102416565"
                 className="flex items-center justify-center space-x-2 px-4 py-4 rounded-xl bg-brand-blue text-white font-bold"
               >
                 <Phone size={20} />
-                <span>+994 50 255 19 63</span>
+                <span>+994 10 241 65 65</span>
               </a>
             </nav>
           </motion.div>

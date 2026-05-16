@@ -25,7 +25,7 @@ export default function Contact() {
 
           <div className="grid md:grid-cols-3 gap-8 text-left mb-12">
             <a 
-              href="tel:+994502551963" 
+              href="tel:+994102416565" 
               className="flex flex-col items-center space-y-4 group p-8 rounded-3xl bg-gray-50 hover:bg-white hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
               <div className="w-16 h-16 bg-blue-100 text-brand-blue rounded-2xl flex items-center justify-center group-hover:bg-brand-blue group-hover:text-white transition-all shadow-lg shadow-blue-500/10">
@@ -33,7 +33,7 @@ export default function Contact() {
               </div>
               <div className="text-center">
                 <div className="text-sm text-gray-500 font-semibold uppercase tracking-wider mb-1">Telefon</div>
-                <div className="text-lg font-bold text-gray-900">+994 50 255 19 63</div>
+                <div className="text-lg font-bold text-gray-900">+994 10 241 65 65</div>
               </div>
             </a>
             <a 
@@ -61,7 +61,7 @@ export default function Contact() {
 
           <div className="flex justify-center">
             <a
-              href="https://wa.me/994502551963"
+              href="https://wa.me/994102416565"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 px-10 py-5 bg-green-600 hover:bg-green-700 text-white rounded-2xl font-bold text-xl transition-all shadow-2xl shadow-green-600/30 hover:-translate-y-1 active:translate-y-0"
