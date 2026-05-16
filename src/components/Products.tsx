@@ -3,32 +3,32 @@ import { motion } from 'motion/react';
 const products = [
   { 
     name: 'Qum', 
-    image: 'https://lh3.googleusercontent.com/d/GOOG_DRIVE_ID_FOR_QUM',
+    image: 'https://lh3.googleusercontent.com/d/1LXGP1efIeI3dcRkejGVcu-nm9qJPnI3g',
     description: 'Yüksək keyfiyyətli tikinti qumu'
   },
   { 
     name: 'Şeben', 
-    image: 'https://lh3.googleusercontent.com/d/GOOG_DRIVE_ID_FOR_SEBEN',
+    image: 'https://lh3.googleusercontent.com/d/1oC98ilJm16LWBf6Q4xT5gSA01HiR9SJR',
     description: 'Müxtəlif fraksiyalı qırmadaş (şeben)'
   },
   { 
     name: 'Asept', 
-    image: 'https://lh3.googleusercontent.com/d/GOOG_DRIVE_ID_FOR_ASEPT',
+    image: 'https://lh3.googleusercontent.com/d/1oOV7iAhn1bgy0JZp4TONPrzCm5zjVJVb',
     description: 'Tikinti üçün izolyasiya və ya asfalt materialları'
   },
   { 
     name: 'Çınqıl', 
-    image: 'https://lh3.googleusercontent.com/d/GOOG_DRIVE_ID_FOR_CINQIL',
+    image: 'https://lh3.googleusercontent.com/d/1BOROSj3NA-SUSSrZNmSCfm8WYhIPyb1B',
     description: 'Təbiəıt çınqılı'
   },
   { 
     name: 'Beton', 
-    image: 'https://lh3.googleusercontent.com/d/GOOG_DRIVE_ID_FOR_BETON',
+    image: 'https://lh3.googleusercontent.com/d/1VREc56Ljhe8QDL6O_dkh63xXGQG6FXxe',
     description: 'Yüksək markalı beton qarışıqları'
   },
   { 
     name: 'Armatur', 
-    image: 'https://lh3.googleusercontent.com/d/GOOG_DRIVE_ID_FOR_ARMATUR',
+    image: 'https://lh3.googleusercontent.com/d/1tldMOpJOzdiUsqRG218_qHuKm198L9Sq',
     description: 'Polad armatur və metal konstruksiyalar'
   }
 ];
