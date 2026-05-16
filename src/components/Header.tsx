@@ -5,6 +5,7 @@ import { Phone, Menu, X } from 'lucide-react';
 const navLinks = [
   { name: 'Haqqımızda', href: '#about' },
   { name: 'Xidmətlər', href: '#services' },
+  { name: 'Məhsullar', href: '#products' },
   { name: 'Layihələr', href: '#projects' },
   { name: 'Əlaqə', href: '#contact' },
 ];

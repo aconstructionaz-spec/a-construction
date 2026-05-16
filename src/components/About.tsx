@@ -20,10 +20,10 @@ export default function About() {
           </h2>
           <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
             <p>
-              A Construction MMC 2015-ci ildə təsis edilmişdir və Azərbaycanın tikinti, sənaye və logistika sahələrində bir çox irimiqyaslı layihələrin həyata keçirilməsində fəal iştirak edir. Şirkətimiz etibarlılıq, yüksək keyfiyyət və peşəkarlıq prinsiplərinə əsaslanaraq güclü nüfuz qazanmışdır.
+              “A Construction” MMC 2015-ci ildə təsis edilmiş və Azərbaycanın tikinti, sənaye və logistika sahələrində bir çox irimiqyaslı layihələrin həyata keçirilməsində fəal iştirak edən etibarlı və peşəkar təchizatçı şirkətdir.
             </p>
-            <p className="font-medium text-gray-800">
-              Müasir texniki imkanlarımız və peşəkar komandamızla müştərilərimizin layihələrinə real dəyər qatmağı hədəfləyirik.
+            <p>
+              Şirkətimiz etibarlılıq, yüksək keyfiyyət və peşəkarlıq prinsiplərinə əsaslanaraq güclü nüfuz qazanmışdır. Müştərilərimizə münasib qiymətlər, yüksək keyfiyyətli məhsullar, vaxtında çatdırılma və dayanıqlı həllər təqdim edirik.
             </p>
           </div>
 
