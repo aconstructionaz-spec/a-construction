@@ -80,21 +80,23 @@ export default function Products() {
           </motion.div>
         </div>
 
-        <div className="relative overflow-hidden py-10">
+        <div className="relative overflow-hidden py-10 cursor-grab active:cursor-grabbing">
           <motion.div 
             className="flex gap-8 whitespace-nowrap px-4"
+            drag="x"
+            dragConstraints={{ left: -4000, right: 0 }}
             animate={{
               x: ["0%", "-50%"]
             }}
             transition={{
-              duration: 40,
+              duration: 60,
               repeat: Infinity,
               ease: "linear",
               repeatType: "loop"
             }}
             whileHover={{ animationPlayState: 'paused' }}
           >
-            {[...products, ...products].map((product, index) => (
+            {[...products, ...products, ...products, ...products].map((product, index) => (
               <div
                 key={`${product.name}-${index}`}
                 className="flex-shrink-0 w-[300px] flex flex-col items-center p-6 bg-white rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-300 group"

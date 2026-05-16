@@ -45,19 +45,19 @@ export default function Projects() {
         <motion.div 
           className="flex gap-8 whitespace-nowrap px-4"
           drag="x"
-          dragConstraints={{ left: -2400, right: 0 }}
+          dragConstraints={{ left: -5000, right: 0 }}
           animate={{
-            x: ["-50%", "0%"]
+            x: ["0%", "-50%"]
           }}
           transition={{
-            duration: 50,
+            duration: 60,
             repeat: Infinity,
             ease: "linear",
             repeatType: "loop"
           }}
           whileHover={{ animationPlayState: 'paused' }}
         >
-          {[...partners, ...partners].map((partner, index) => (
+          {[...partners, ...partners, ...partners, ...partners].map((partner, index) => (
             <div
               key={`${partner.name}-${index}`}
               className="flex-shrink-0 w-[400px] flex flex-col items-center p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:bg-white hover:shadow-xl transition-all duration-300 text-center group"
